@@ -1,0 +1,42 @@
+127.0.0.1 | SUCCESS => {
+    "ansible_facts": {
+        "ansible_default_ipv4": {
+            "address": "10.0.2.15",
+            "alias": "enp0s3",
+            "broadcast": "",
+            "gateway": "10.0.2.2",
+            "interface": "enp0s3",
+            "macaddress": "08:00:27:be:f9:e2",
+            "mtu": 1500,
+            "netmask": "255.255.255.0",
+            "network": "10.0.2.0",
+            "prefix": "24",
+            "type": "ether"
+        },
+        "ansible_distribution": "Ubuntu",
+        "ansible_distribution_version": "24.04",
+        "ansible_env": {
+            "DBUS_SESSION_BUS_ADDRESS": "unix:path=/run/user/1000/bus",
+            "HOME": "/home/user",
+            "LANG": "en_US.UTF-8",
+            "LOGNAME": "user",
+            "PATH": "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin",
+            "PWD": "/home/user",
+            "SHELL": "/bin/bash",
+            "SHLVL": "0",
+            "SSH_CLIENT": "127.0.0.1 56408 22",
+            "SSH_CONNECTION": "127.0.0.1 56408 127.0.0.1 22",
+            "SSH_TTY": "/dev/pts/3",
+            "TERM": "xterm-256color",
+            "USER": "user",
+            "XDG_RUNTIME_DIR": "/run/user/1000",
+            "XDG_SESSION_CLASS": "user",
+            "XDG_SESSION_ID": "821",
+            "XDG_SESSION_TYPE": "tty",
+            "_": "/bin/sh"
+        },
+        "ansible_hostname": "bubuntu",
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": false
+}
